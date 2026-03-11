@@ -1,0 +1,49 @@
+smart-contact-manager
+│
+├── README.md
+├── pom.xml
+├── .gitignore
+│
+├── src
+│   └── main
+│       ├── java
+│       │   └── com
+│       │       └── smartcontactmanager
+│       │           ├── SmartContactManagerApplication.java
+│       │           │
+│       │           ├── controller
+│       │           │   └── ContactController.java
+│       │           │
+│       │           ├── entity
+│       │           │   └── Contact.java
+│       │           │
+│       │           ├── repository
+│       │           │   └── ContactRepository.java
+│       │           │
+│       │           ├── service
+│       │           │   └── ContactService.java
+│       │           │
+│       │           └── config
+│       │               └── SecurityConfig.java
+│       │
+│       └── resources
+│           ├── application.properties
+│           │
+│           ├── templates
+│           │   ├── index.html
+│           │   ├── add_contact.html
+│           │   ├── view_contacts.html
+│           │   └── update_contact.html
+│           │
+│           └── static
+│               ├── css
+│               │   └── style.css
+│               │
+│               ├── js
+│               │   └── script.js
+│               │
+│               └── images
+│                   └── logo.png
+│
+└── database
+    └── contact_manager.sql
